@@ -1,0 +1,159 @@
+*{/*относится ко всем тэгам */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    text-align: center;
+    background-image: url(../img/ela12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+@font-face{
+    font-family: Roboto;
+    src:url(../fonts/Roboto-Regular.ttf);
+
+}
+
+main{
+    width: 80%;
+    background-color: aquamarine;
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 0px 100px rgb(127, 146, 255);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(85,127,224,1) 49%, rgba(0,212,255,1) 100%);
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /*block, inline-block, flex*/
+}
+h1{
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(0, 255, 179);
+    text-shadow: 1px -3px 6px rgb(0, 217, 255);
+    font-weight: bold;
+}
+
+
+p{
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(51, 255, 0);
+    text-shadow: 1px -3px 6px rgb(0, 255, 85);
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    color: white;
+}
+
+.link{
+    width: auto;
+    padding: 10px;
+    margin-top: 20px;
+    color: green;
+    border: 2px solid green;
+}
+
+.link:hover{
+    color: white;
+    background-color: rgb(229, 130, 238);
+    border: 2px solid rgb(255, 192, 192);
+
+}
+
+
+
+.photo{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    margin: 10px;
+    transition: all 1.0s ease;
+    border: solid rgb(0, 255, 42);
+    border-radius:200px;
+}
+
+.photo:hover{
+    transform: scale(1.5);
+}
+
+
+.photo1{
+    background-image: url(../img/ela0.jpg);
+    background-size: cover;
+}
+
+.photo2{
+    background-image: url(../img/ela1.jpg);
+    background-size: cover;
+}
+
+.photo3{
+    background-image: url(../img/ela2.jpg);
+    background-size: cover;
+}
+ 
+.photo4{
+    background-image: url(../img/ela3.jpg);
+    background-size: cover;
+}
+
+.photo5{
+    background-image: url(../img/ela4.jpg);
+    background-size: cover;
+}
+
+.photo6{
+    background-image: url(../img/ela5.jpg);
+    background-size: cover;
+}
+
+.photo7{
+    background-image: url(../img/ela6.jpg);
+    background-size: cover;
+}
+
+.photo8{
+    background-image: url(../img/ela7.jpg);
+    background-size: cover;
+}
+
+.photo9{
+    background-image: url(../img/ela8.jpg);
+    background-size: cover;
+}
+
+.photo10{
+    background-image: url(../img/ela9.jpg);
+    background-size: cover;
+}
+
+.photo11{
+    background-image: url(../img/ela10.jpg);
+    background-size: cover;
+}
+
+.photo12{
+    background-image: url(../img/ela11.jpg);
+    background-size: cover;
+}
+
+
+
